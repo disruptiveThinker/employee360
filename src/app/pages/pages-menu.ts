@@ -34,7 +34,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'SkillSet',
-        link: '/pages/ui-features/popovers',
+        link: '/pages/tables/skill-table',
       },
       {
         title: 'Health & Fitness',
