@@ -139,6 +139,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'My Goals',
         link: '/pages/tables/smart-table',
       },
+      {
+        title: 'My Feedback',
+        link: '/pages/tables/feed-table',
+      },
     ],
   },
   {

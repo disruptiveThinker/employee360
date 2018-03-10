@@ -30,30 +30,84 @@ export class SmartTableComponent {
       confirmDelete: true,
     },
     columns: {
-      id: {
+      kpi: {
         title: 'KPI',
         type: 'string',
       },
-      firstName: {
+      kpiDesc: {
         title: 'Detailed Description',
         type: 'string',
       },
-      lastName: {
-        title: 'Remarks',
+      empRemarks: {
+        title: 'Employee Remarks',
         type: 'string',
       },
-      username: {
+      empRating: {
         title: 'Employee Rating',
+        type: 'string',
+      },
+      mgrRemarks: {
+        title: 'Manager Remarks',
+        type: 'string',
+      },
+      mgrRating: {
+        title: 'Manager Rating',
+        type: 'string',
+      },
+    },
+  };
+
+  mgrSettings = {
+    add: {
+      addButtonContent: '<i class="nb-plus"></i>',
+      createButtonContent: '<i class="nb-checkmark"></i>',
+      cancelButtonContent: '<i class="nb-close"></i>',
+    },
+    edit: {
+      editButtonContent: '<i class="nb-edit"></i>',
+      saveButtonContent: '<i class="nb-checkmark"></i>',
+      cancelButtonContent: '<i class="nb-close"></i>',
+    },
+    delete: {
+      deleteButtonContent: '<i class="nb-trash"></i>',
+      confirmDelete: true,
+    },
+    columns: {
+      kra: {
+        title: 'KRA',
+        type: 'string',
+      },
+      kraDesc: {
+        title: 'Detailed Description',
+        type: 'string',
+      },
+      empRemarks: {
+        title: 'Employee Remarks',
+        type: 'string',
+      },
+      empRating: {
+        title: 'Employee Rating',
+        type: 'string',
+      },
+      mgrRemarks: {
+        title: 'Manager Remarks',
+        type: 'string',
+      },
+      mgrRating: {
+        title: 'Manager Rating',
         type: 'string',
       },
     },
   };
 
   source: LocalDataSource = new LocalDataSource();
+  mgrSource: LocalDataSource = new LocalDataSource();
 
   constructor(private service: SmartTableService) {
     const data = this.service.getData();
+    const mgrData = this.service.getMgrData();
     this.source.load(data);
+    this.mgrSource.load(mgrData);
   }
 
   onDeleteConfirm(event): void {
