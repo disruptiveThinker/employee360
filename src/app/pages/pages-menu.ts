@@ -2,7 +2,7 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'Dashboard',
+    title: 'MyColruyt',
     icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
@@ -12,122 +12,64 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
-    title: 'UI Features',
+    title: 'MyView',
     icon: 'nb-keypad',
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Buttons',
+        title: 'Groups',
         link: '/pages/ui-features/buttons',
       },
       {
-        title: 'Grid',
+        title: 'ESS',
         link: '/pages/ui-features/grid',
       },
       {
-        title: 'Icons',
+        title: 'My Documents',
         link: '/pages/ui-features/icons',
       },
       {
-        title: 'Modals',
+        title: 'SDesk',
         link: '/pages/ui-features/modals',
       },
       {
-        title: 'Popovers',
+        title: 'SkillSet',
         link: '/pages/ui-features/popovers',
       },
       {
-        title: 'Typography',
+        title: 'Health & Fitness',
         link: '/pages/ui-features/typography',
       },
       {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
-      },
-      {
-        title: 'Tabs',
+        title: 'MyGroups',
         link: '/pages/ui-features/tabs',
       },
     ],
   },
   {
-    title: 'Forms',
+    title: 'MyForms',
     icon: 'nb-compose',
     children: [
       {
-        title: 'Form Inputs',
+        title: 'Forms Raised by me',
         link: '/pages/forms/inputs',
       },
       {
-        title: 'Form Layouts',
+        title: 'Forms Raised for me',
         link: '/pages/forms/layouts',
       },
     ],
   },
   {
-    title: 'Components',
+    title: 'Learning&Development',
     icon: 'nb-gear',
     children: [
       {
-        title: 'Tree',
+        title: 'My L&D',
         link: '/pages/components/tree',
       }, {
-        title: 'Notifications',
+        title: 'Training Notifications',
         link: '/pages/components/notifications',
-      },
-    ],
-  },
-  {
-    title: 'Maps',
-    icon: 'nb-location',
-    children: [
-      {
-        title: 'Google Maps',
-        link: '/pages/maps/gmaps',
-      },
-      {
-        title: 'Leaflet Maps',
-        link: '/pages/maps/leaflet',
-      },
-      {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
-      },
-      {
-        title: 'Search Maps',
-        link: '/pages/maps/searchmap',
-      },
-    ],
-  },
-  {
-    title: 'Charts',
-    icon: 'nb-bar-chart',
-    children: [
-      {
-        title: 'Echarts',
-        link: '/pages/charts/echarts',
-      },
-      {
-        title: 'Charts.js',
-        link: '/pages/charts/chartjs',
-      },
-      {
-        title: 'D3',
-        link: '/pages/charts/d3',
-      },
-    ],
-  },
-  {
-    title: 'Editors',
-    icon: 'nb-title',
-    children: [
-      {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
-      },
-      {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
       },
     ],
   },
