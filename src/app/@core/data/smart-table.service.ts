@@ -4,26 +4,20 @@ import { Injectable } from '@angular/core';
 export class SmartTableService {
 
   data = [{
-    id: 1,
-    firstName: 'Mark',
-    lastName: 'Otto',
-    username: '@mdo',
-    email: 'mdo@gmail.com',
-    age: '28',
+    id: 'Learning',
+    firstName: 'Learning curve torwards Angular',
+    lastName: '',
+    username: '',
   }, {
-    id: 2,
-    firstName: 'Jacob',
-    lastName: 'Thornton',
-    username: '@fat',
-    email: 'fat@yandex.ru',
-    age: '45',
+    id: 'Utilization',
+    firstName: '1665 hrs',
+    lastName: '',
+    username: '',
   }, {
-    id: 3,
-    firstName: 'Larry',
-    lastName: 'Bird',
-    username: '@twitter',
-    email: 'twitter@outlook.com',
-    age: '18',
+    id: 'Solve Critical problems',
+    firstName: 'Solve 70% of critical problems independently',
+    lastName: '',
+    username: '',
   }, {
     id: 4,
     firstName: 'John',
@@ -409,20 +403,6 @@ export class SmartTableService {
     'username': '@Roman',
     'email': 'mcguireroman@comtours.com',
     'age': 38,
-  }, {
-    'id': 59,
-    'firstName': 'Rodriquez',
-    'lastName': 'Saunders',
-    'username': '@Harper',
-    'email': 'rodriquezharper@comtours.com',
-    'age': 20,
-  }, {
-    'id': 60,
-    'firstName': 'Lou',
-    'lastName': 'Conner',
-    'username': '@Sanchez',
-    'email': 'lousanchez@comtours.com',
-    'age': 16,
   }];
 
   getData() {
