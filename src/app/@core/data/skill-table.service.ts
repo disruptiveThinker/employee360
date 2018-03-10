@@ -23,6 +23,12 @@ export class SkillTableService {
     certification: 'No',
   }];
 
+  /*restUrl: string = 'http://10.184.179.123:8080/employee360/skills/all';
+
+  getSkills() {
+    return this.http.get(this.restUrl);
+  }*/
+
   getData() {
     return this.data;
   }
