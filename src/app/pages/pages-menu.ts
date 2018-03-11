@@ -17,10 +17,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Groups',
-        link: '/pages/ui-features/buttons',
-      },
-      {
         title: 'ESS',
         link: '/pages/ui-features/grid',
       },
