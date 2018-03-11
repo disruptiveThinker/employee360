@@ -1,11 +1,115 @@
 <div class="row">
   <div class="col-md-12">
     <nb-card>
-      <nb-card-header>Modals</nb-card-header>
+      <nb-card-header>SDesk Tickets</nb-card-header>
       <nb-card-body>
-        <button class="btn btn-success" (click)="showLargeModal()">Large modal</button>
-        <button class="btn btn-warning" (click)="showSmallModal()">Small modal</button>
-        <button class="btn btn-primary" (click)="showStaticModal()">Static modal</button>
+
+        <h6 class="grid-h">Tickets OPEN</h6>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead>
+            <th>Sdesk Ticket No</th>
+            <th>Description</th>
+            <th>Create Date</th>
+            <th colspan="5">End Date</th>
+            </thead>
+
+            <tbody>
+            <tr>
+              <th class="text-nowrap" scope="row">121212</th>
+              <td>Windows Installation</td>
+              <th class="text-nowrap" scope="row">01 Mar 2108</th>
+              <td colspan="5">15 Mar 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121213</th>
+              <td>IntelliJ Installation</td>
+              <th class="text-nowrap" scope="row">01 Mar 2108</th>
+              <td colspan="5">16 Mar 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121214</th>
+              <td>Eclipse Installation</td>
+              <th class="text-nowrap" scope="row">01 Mar 2108</th>
+              <td colspan="5">17 Mar 2108</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h6 class="grid-h">Tickets PENDING</h6>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead>
+            <th>Sdesk Ticket No</th>
+            <th>Description</th>
+            <th>Create Date</th>
+            <th colspan="5">End Date</th>
+            </thead>
+
+            <tbody>
+            <tr>
+              <th class="text-nowrap" scope="row">121201</th>
+              <td>Dynatrace Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">22 Feb 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121202</th>
+              <td>JMeter Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">23 Feb 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121203</th>
+              <td>SOAP UI Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">24 Feb 2108</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+        <h6 class="grid-h">Tickets CLOSED</h6>
+
+        <div class="table-responsive">
+          <table class="table table-bordered table-striped">
+            <thead>
+            <th>Sdesk Ticket No</th>
+            <th>Description</th>
+            <th>Create Date</th>
+            <th colspan="5">End Date</th>
+            </thead>
+
+            <tbody>
+            <tr>
+              <th class="text-nowrap" scope="row">121100</th>
+              <td>Jenkins Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">15 Feb 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121101</th>
+              <td>JIRA Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">16 Feb 2108</td>
+            </tr>
+
+            <tr>
+              <th class="text-nowrap" scope="row">121102</th>
+              <td>RAD Installation</td>
+              <th class="text-nowrap" scope="row">01 Feb 2108</th>
+              <td colspan="5">17 Feb 2108</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       </nb-card-body>
     </nb-card>
   </div>
